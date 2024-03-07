@@ -1,20 +1,9 @@
-package com.jpa.practices.jpapractices.modal;
+package com.jpa.practices.jpapractices.Response;
 
-import jakarta.persistence.*;
+public class AddressResponse {
 
-@Entity
-@Table(name = "address")
-public class Address {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id")
     private int id;
-
-    @Column(name = "city")
     private String city;
-
-    @Column(name = "state")
     private String state;
 
     public int getId() {

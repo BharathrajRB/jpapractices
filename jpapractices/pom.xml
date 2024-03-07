@@ -41,7 +41,17 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
-		</dependency>
+		</dependency><!-- https://mvnrepository.com/artifact/org.modelmapper/modelmapper -->
+<dependency>
+    <groupId>org.modelmapper</groupId>
+    <artifactId>modelmapper</artifactId>
+    <version>3.2.0</version>
+</dependency>
+<dependency>
+    <groupId>net.sf.dozer</groupId>
+    <artifactId>dozer</artifactId>
+    <version>5.5.1</version>
+</dependency>
 	</dependencies>
 
 	<build>
