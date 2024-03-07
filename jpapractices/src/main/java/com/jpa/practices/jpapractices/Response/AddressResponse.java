@@ -1,7 +1,6 @@
 package com.jpa.practices.jpapractices.Response;
 
 public class AddressResponse {
-
     private int id;
     private String city;
     private String state;
@@ -29,4 +28,5 @@ public class AddressResponse {
     public void setState(String state) {
         this.state = state;
     }
+
 }

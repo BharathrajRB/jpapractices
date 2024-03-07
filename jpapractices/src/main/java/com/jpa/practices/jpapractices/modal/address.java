@@ -1,21 +1,16 @@
 package com.jpa.practices.jpapractices.modal;
 
-import jakarta.persistence.*;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
 
-@Entity
-@Table(name = "address")
 public class Address {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id")
+
     private int id;
-
-    @Column(name = "city")
     private String city;
-
-    @Column(name = "state")
-    private String state;
 
     public int getId() {
         return id;
@@ -40,4 +35,7 @@ public class Address {
     public void setState(String state) {
         this.state = state;
     }
+
+    private String state;
+
 }
