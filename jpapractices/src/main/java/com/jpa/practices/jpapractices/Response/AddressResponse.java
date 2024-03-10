@@ -1,32 +1,35 @@
-package com.jpa.practices.jpapractices.Response;
 
-public class AddressResponse {
+// package com.jpa.practices.jpapractices.Response;
 
-    private int id;
-    private String city;
-    private String state;
+// public class AddressResponse {
 
-    public int getId() {
-        return id;
-    }
+//     private int id;
+//     private String city;
+//     private String state;
 
-    public void setId(int id) {
-        this.id = id;
-    }
+//     public int getId() {
+//         return id;
+//     }
 
-    public String getCity() {
-        return city;
-    }
+//     public void setId(int id) {
+//         this.id = id;
+//     }
 
-    public void setCity(String city) {
-        this.city = city;
-    }
+//     public String getCity() {
+//         return city;
+//     }
 
-    public String getState() {
-        return state;
-    }
+//     public void setCity(String city) {
+//         this.city = city;
+//     }
 
-    public void setState(String state) {
-        this.state = state;
-    }
-}
+//     public String getState() {
+//         return state;
+//     }
+
+//     public void setState(String state) {
+//         this.state = state;
+//     }
+
+//     // Getters and setters
+// }
