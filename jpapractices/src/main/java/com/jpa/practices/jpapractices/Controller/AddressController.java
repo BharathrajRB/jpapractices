@@ -21,4 +21,5 @@ public class AddressController {
         AddressResponse addressResponse = addressService.findAddressByEmployeeId(employeeId);
         return ResponseEntity.status(HttpStatus.OK).body(addressResponse);
     }
+    
 }
